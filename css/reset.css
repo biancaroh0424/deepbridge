@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+.hide{
+    display: none;
+}
+
+html, body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: none transparent;
+    overflow-x:hidden; 
+    overflow-y:auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    
+}
+section{
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+ul, li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.048em;
+    color: #161617;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+p,ul,li,span{
+    font-family: 'Open Sans', sans-serif;
+    color: #505158;
+    letter-spacing: -0.024em;
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+*::-moz-selection {
+    background-color: #1C45AE;
+    color: #f4f5f6;
+}
+*::selection {
+    background-color: #1C45AE;
+    color: #f4f5f6;
+}
+h2{
+    font-size: 5.875rem;
+}
+h3{
+    font-size: 3.5rem;
+}
+iframe{
+    background:transparent;
+}
+fieldset, form{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #505158;
+    padding: 2px;
+    border-radius: 100%;
+    background-clip: content-box;
+}
+input[type="radio"]:checked{
+    background-color: #1C45AE;
+}
+.radio_box{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    letter-spacing: -0.048em;
+    color: #E2E3EF;
+}
+
+select{
+    font-family: 'open sans', sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-transform: uppercase;
+    background: transparent;
+    width: 100%;
+    color: #E2E3EF;
+    border:none;
+    font-size: 13px;
+}
+
+.select_location,.select_topic{
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #505158;
+}
+select:focus{
+    outline: none;
+}
+select option{
+    font-family: 'open sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    background: transparent;
+    padding: 16px;
+}
+.arrow_icon{
+    width: 20px;
+    height: 20px;
+}
+input[type="text"],input[type="email"],input[type="tel"],textarea{
+    background: transparent;
+    border: none;
+    color: #E2E3EF;
+    font-family: 'open sans', sans-serif;
+    letter-spacing: -0.048em;
+    font-size: 13px;
+}
+input[type="text"],input[type="email"],input[type="tel"],textarea:focus{
+    outline: none;
+}
+input[type="text"]::placeholder,input[type="email"]::placeholder,input[type="tel"]::placeholder,textarea::placeholder{
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #E2E3EF;
+    font-family: 'open sans', sans-serif;
+    letter-spacing: -0.048em;
+}
+textarea{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    overflow-y: auto;
+}
+footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+address ,.address_group p{
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #29282E;
+    letter-spacing: -0.024em;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+}
+.cursor {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -50%;
+    left: -50%;
+    margin: -15px 0 0 -15px;
+    border-radius: 50%;
+    background-color: white;
+    backface-visibility: hidden;
+    transition: transform 0.12s ease-out;
+    mix-blend-mode: difference;
+    z-index: 9999;
+    pointer-events: none;
+  }
+  .cursor.is-moving {
+    transform: scale(0.8);
+
+  }
+  
+  .content_cursor {
+    position:relative;
+    height:100%;
+
+  }

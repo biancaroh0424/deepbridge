@@ -1,0 +1,129 @@
+/* Tablet Layout */
+
+@media (max-width: 1280px){
+    
+    .topnav_tablet .nav,.content_horizontal,.services .content .type_title,.insights .content,.network .content_horizontal_network,.contact .content,.footer_area,.legal_content{
+        width: 88%;
+        margin: auto;
+    }
+    .main_content{
+        width: 88%;
+        margin: auto;
+    }
+    .main_content .hero_desc{
+        width: 714px;
+        gap: 16px;
+    }
+    .hero_desc h2{
+        font-size: 64px;
+    }
+    .hero_desc p{
+        font-size: 16px;
+    }
+    .bottom_nav_tablet{
+        width: fit-content;
+    }
+    .bottom_nav_main_tablet{
+        background: #1c45ae;
+    }
+    .sub_bottom_nav_tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        overflow-y: scroll;
+        height: 580px;
+    }
+    .sub_bottom_nav_tablet_li{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .sub_bottom_nav_tablet li a{
+        padding: 12px 4px;
+    }
+    .sub_bottom_nav_tablet_li_ttl{
+        font-weight: 700;
+    }
+    .bottom_nav_tablet_active{
+        width: 88%;
+    }
+    .bottom_nav_tablet_btn_active{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .sec2_desc_btn .title_desc h3{
+        font-size: 56px;
+    }
+    
+    .vertical_end .horizontal{
+        justify-content: flex-start;
+        gap: unset;
+    }
+    
+    .horizontal,.vertical, .vertical ul, .services ul li{
+        width: 100%;
+    }
+    .services{
+        background: #1c45ae;
+    }
+    .services .type_title h4, .services a,.services .detail_btn{
+        color: #F3F4F6;
+    }
+    .services li{
+        border-color: #9ca4b4;
+    }
+    .card_group{
+        justify-content: flex-start;
+    }
+    .card_group,.card{
+        width: 100%;
+    }
+    .content_horizontal_network{
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    #globeViz{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90% !important;
+        height: 90% !important;
+    }
+    #globeViz canvas{
+        width: 100% !important;
+        height: 100% !important
+    }
+    #globeViz .scene-container{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .form_col{
+        width: 100%;
+    }
+    .lets_talk{
+        left: -73%;
+        padding: 2px;
+    }
+    #lang_option_tablet{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        top: 56px;
+        width: 120px;
+        padding: 16px 24px;
+        background: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 0 0 8px 8px;
+        backdrop-filter: blur(1.6px);
+    }
+
+}   
+
+

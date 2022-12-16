@@ -1,0 +1,128 @@
+/* phone layout */
+
+@media (max-width: 725px){
+    .topnav_phone .nav, .content_horizontal, .services .content .type_title, .insights .content, .network .content_horizontal_network, .contact .content, .footer_area, .legal_content{
+        margin: auto;
+        width: 94%;
+    }
+    .main_sec{
+        height: 70vh;
+    }
+    .section2{
+        height: 80vh;
+    }
+    .phone_talk{
+        padding: 0 8px;
+    }
+    .main_content .hero_desc{
+        width: 100%;
+    }
+    .hero_desc h2 {
+        font-size: 36px;
+    }.hero_desc p{
+        font-size: 14px;
+    }
+    .type_title h4, .vertical h4{
+        font-size: 16px;
+    }
+    .sec2_desc_btn .title_desc h3, .insights h3, .network h3, .contact h3{
+        font-size: 26px;
+    }
+    .sec2_desc_btn .main_btn{
+        width: 100%;
+    }
+    .sec2_desc_btn{
+        width: 100%;
+    }
+    .title_desc p{
+        font-size: 16px;
+    }
+    .services ul li{
+        font-size: 26px;
+    }
+    .detail_btn{
+        font-size: 14px;
+    }
+    .title_desc_sec3,.title_desc, .title_desc_sec3{
+        width: 100%;
+    }
+    .network_desc_btn{
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+    #globeViz{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    #globeViz canvas{
+        width: 100% !important;
+        height: 100% !important
+    }
+    #globeViz .scene-container{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .btn_main{
+        width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .submit_area .btn_main{
+        width: 30%;
+    }
+    .submit_area h4{
+        font-size: 20px;
+    }
+    .contact_form{
+        margin-top: 56px;
+    }
+    .footer_area{
+        display: flex;
+        gap: 40px;
+    }
+    .address_group{
+        width: 100%
+    }
+    .address{
+        justify-content: space-between;
+    }
+    .legal_content{
+        display:flex;
+        justify-content: center;
+    }
+    .legal_content ul{
+        width: 58%;
+    }
+    .type_title{
+        width: 100%;
+    }
+    .network_desc_btn{
+        justify-content: flex-start;
+    }
+    .card_img{
+        height: 120px;
+    }
+    .legal_content ul li{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #lang_option_phone{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+        top: 56px;
+        padding: 16px;
+        right: 0px;
+        width: 120px;
+        background: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.6);
+        border-radius: 0 0 8px 8px;
+        backdrop-filter: blur(1.6px);
+    }
+}

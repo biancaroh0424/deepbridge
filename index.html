@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/header_footer.css">
+    <link rel="stylesheet" href="css/index_tablet.css">
+    <link rel="stylesheet" href="css/index_phone.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+  />
+    <title>DEEP BRIDGE</title>
+</head>
+<body id="scroll">
+    <h1 class="hide">DEEP BRIDGE</h1>
+    <header>
+        <nav class="top_nav" id="topnav_computer">
+            <div class="nav">
+                <a href="index.html"><img src="images/logo1.svg" alt=""></a>
+                <div class="nav_right">
+                <ul class="nav_right">
+                    <li><a href="#">About</a>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">How we can help</a></li>
+                    <li><a href="#">Insights</a></li>
+                    <li><a href="#">Network</a></li>
+                        <ul class="lang hide">
+                            <li><a href="#"><img src="images/lang.svg" alt="">EN</a></li>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">ES</a></li>
+                            <li><a href="#">IT</a></li>
+                            <li><a href="#">한국어</a></li>
+                        </ul>
+                    <li><a href="#" class="talk">LET'S TALK</a></li>
+                </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="top_nav topnav_tablet" id="topnav_tablet" style="display: none">
+            <div class="nav">
+                <a href="index.html"><img src="images/logo1.svg" alt=""></a>
+                <div class="nav_right" id="nav_right_tablet">
+                <ul class="nav_right">
+                    <li><a href="#"><img src="images/lang.svg" alt="">EN</a>
+                </li>
+                </ul>
+                <ul class="lang" id="lang_option_tablet" style="display: none">   
+                    <li><a href="#">FR</a></li>
+                    <li><a href="#">ES</a></li>
+                    <li><a href="#">IT</a></li>
+                    <li><a href="#">한국어</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="top_nav topnav_phone" id="topnav_phone" style="display:none">
+            <div class="nav">
+                <a href="index.html"><img src="images/logo1.svg" alt=""></a>
+                <div class="nav_right" id="nav_right_phone">
+                <ul class="nav_right">
+                    <li><a href="#"><img src="images/lang.svg" alt="">EN</a>
+                </li>
+                </ul>
+                <ul class="lang" id="lang_option_phone"  style="display:none">   
+                    <li><a href="#">FR</a></li>
+                    <li><a href="#">ES</a></li>
+                    <li><a href="#">IT</a></li>
+                    <li><a href="#">한국어</a></li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <nav class="bottom_nav" style="display: none" id="bottom_nav_com">
+            <div class="bottom_nav_li">
+                <ul class="bottom_nav_li" id="bottom_nav_bar">
+                <li class="bottom_nav_main">
+                    <a id="bottom_nav_main_btn" href="#"><img src="images/menu_nav.svg" alt="" class="bottom_menu_nav_main"><img src="images/close_nav.svg" alt="" width="16" class="hide" id="close_nav"><img src="images/menu_logo.svg" alt="see all menu"></a>
+                <ul class="bottom_nav_li" id="bottom_nav_right">
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">how we can help</a></li>
+                <li><a href="#">insights</a></li>
+                <li><a href="#">network</a></li>
+                <li><a href="#"><img src="images/lang.svg" alt="">EN</a></li>
+                <li><a href="#" class="bottom_nav_btn">let's talk</a></li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+
+            <!-- 클릭시 액티브 메뉴 -->
+            <div class="sub_bottom_nav" style="display: none">
+                <div class="sub_bottom_nav_col">
+                <ul class="sub_bottom_nav_col">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Vision</a></li>
+                </ul>
+                </div>
+                <div class="sub_bottom_nav_col">
+                <ul class="sub_bottom_nav_col">
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Planning</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Marketing</a></li>
+                <li><a href="#">Branding</a></li>
+                <li><a href="#">Culture</a></li>
+                </ul>
+                </div>
+                <div class="sub_bottom_nav_col">
+                <ul class="sub_bottom_nav_col">
+                <li><a href="#">Fund</a></li>
+                <li><a href="#">Create</a></li>
+                <li><a href="#">Call</a></li>
+                <li><a href="#">How we can help</a></li>
+                </ul>
+                </div>
+                <div class="sub_bottom_nav_col">
+                <ul class="sub_bottom_nav_col">
+                <li><a href="#">Insights</a></li>
+                </ul>
+                </div>
+                <div class="sub_bottom_nav_col">
+                <ul class="sub_bottom_nav_col">
+                <li><a href="#">Network</a></li>
+                </ul>
+                </div>
+                <div class="sub_bottom_nav_col">
+                <ul class="sub_bottom_nav_col">
+                <li><a href="#"><img src="images/lang.svg" alt="">EN</a></li>
+                <li><a href="#">FRANÇAISE</a></li>
+                <li><a href="#">ESPAÑOL</a></li>
+                <li><a href="#">ITALIANO</a></li>
+                <li><a href="#">한국어</a></li>
+                </ul>
+                </div>
+                <a href="#" class="bottom_nav_btn">LET'S TALK</a>
+            </div>
+        </nav>
+
+        <nav class="bottom_nav bottom_nav_tablet" id="bottom_nav_tablet">
+            <div class="bottom_nav_li" id="sub_bottom_nav_tablet_default">
+                <ul class="bottom_nav_li" id="bottom_nav_bar">
+                <li class="bottom_nav_main bottom_nav_main_tablet" id="bottomnav_main_tablet">
+                    <a id="bottom_nav_main_btn" href="#"><img src="images/menu_nav_white.svg" alt="" class="bottom_menu_nav_main"><img src="images/close_nav.svg" alt="" width="16" class="hide" id="close_nav"><img src="images/menu_logo_white.svg" alt="see all menu"></a>
+                </li>
+            </div>
+
+            <div class="bottom_nav_li" id="sub_bottom_nav_tablet_active" style="display: none">
+                <ul class="bottom_nav_li" id="bottom_nav_bar">
+                <li class="bottom_nav_main" id="bottomnav_main_tablet">
+                    <a id="bottom_nav_main_btn" href="#" class="bottom_nav_tablet_btn_active"><img src="images/close_nav.svg" alt="" width="16" id="close_nav"><img src="images/menu_logo.svg" alt="see all menu"></a>
+                </li>
+            </div>
+
+
+            <!-- 클릭시 액티브 메뉴 -->
+            <div class="sub_bottom_nav sub_bottom_nav_tablet" style="display: none" id="subbottom_nav_tablet">
+               <ul class="sub_bottom_nav_tablet_li">
+                <li class="sub_bottom_nav_tablet_li_ttl"><a href="#">ABOUT</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">VISION</a></li>
+               </ul> 
+               <ul class="sub_bottom_nav_tablet_li">
+                <li class="sub_bottom_nav_tablet_li_ttl"><a href="#">Services</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">insights & Culture</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">branding</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">marketing</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">design</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">gamification</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">strategy & planning</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">automation</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">metaverse</a></li>
+                <li class="sub_bottom_nav_tablet_li"><a href="#">funding for startups</a></li>
+                </ul>
+                <ul class="sub_bottom_nav_tablet_li">
+                    <li class="sub_bottom_nav_tablet_li_ttl"><a href="#">How we can help</a></li>
+                    <li class="sub_bottom_nav_tablet_li"><a href="#">Call</a></li>
+                    <li class="sub_bottom_nav_tablet_li"><a href="#">Create</a></li>
+                    <li class="sub_bottom_nav_tablet_li"><a href="#">Fund</a></li>
+                    </ul>
+                <ul class="sub_bottom_nav_tablet_li">
+                <li class="sub_bottom_nav_tablet_li_ttl"><a href="#">insights</a></li>
+                </ul>
+                <ul class="sub_bottom_nav_tablet_li">
+                <li class="sub_bottom_nav_tablet_li_ttl"><a href="#">network</a></li>
+                </ul>
+               
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main_sec" id="main_sec">
+            <div class="main_content">
+            <div class="hero_desc">
+            <h2>
+                DEEP COMMON ROOTS & VALUES
+            </h2>
+            <p>
+                Get ahead with the expertise you need to make smarter decisions. Where we answer current industry questions and explore what's trending in sales strategy, operations, enablement, and leadership.
+            </p>
+            </div>
+            </div>
+            
+        </section>
+        <section class="section2">
+        <div class="content_horizontal">
+            <div class="type_title">
+            <h4>OUR VISION</h4>
+            <div class="sec2_desc_btn">
+            <div class="title_desc">
+            <h3>DEEP BRIDGE ACTS 
+                AS A BRDGE ALL AROUND THE WORLD</h3>
+            <p>
+                We do what we love. We're passionate about helping our clients succeed, and we take pride in the outcomes we produce.
+                We support, challenge, and root for one another. There is no scenario where we succeed on an island alone.
+            </p>
+            </div>
+            <a class="main_btn" href="#">OUR VISION</a>
+            </div>
+            </div>
+            
+        </div>
+        </section>
+        <section class="services">
+            <div class="content">
+                <div class="type_title">
+                <h4>OUR SERVICES</h4>
+                <div class="vertical_end">
+                <div class="horizontal">
+                    <div class="vertical">
+                        <ul>
+                        <li><a href="#">Insights & Culture</a></li>
+                        <li><a href="#">BRANDING</a></li>
+                        <li><a href="#">MARKETING</a></li>
+                        <li><a href="#">DESIGN</a></li>
+                        <li><a href="#">gamification</a></li>
+                        
+                        </ul>
+                    </div>
+                    <div class="vertical">
+                        <ul>
+                        <li><a href="#">Strategy & Planning</a></li>
+                        <li><a href="#">AUTOMATION</a></li>
+                        <li><a href="#">Metaverse</a></li>
+                        <li><a href="#">FUNDING FOR STARTUPS</a></li>
+                        
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="detail_btn">DETAILS<img id="arrow_com"src="images/arrow_right_long_black.svg" alt="">
+                <img id="arrow_tablet"class="hide "src="images/arrow_right_long.svg" alt="">
+                </a>
+                </div>
+                </div>
+                </div>
+        </section>
+        <section class="insights">
+            <div class="content">
+                <div class="vertical_end">
+            <div class="type_title">
+                <h4>OUR INSIGHTS</h4>
+            
+            <div class="title_desc_sec3">
+            <h3>Values & deep culture 
+                the roots of change</h3>
+            <p>Understand the culture, understand the people. Country's cultres are about what and why people are thinking in a specific way, how to touch people's heart</p>
+            </div>
+            </div>
+            
+
+            <div class="card_group swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="card">
+                        <a href="#">
+                        <div class="card_img">
+                            <img src="images/card_img1.png" alt="">
+                        </div>
+                        </a>
+                        <div class="card_title_desc">
+                            <span class="card_title">Finding an Expert for a Strategic Workshop for a Consulting Client</span>
+                            
+                            <span>
+                                The experts extensive background in Brazilian economics made them an ideal fit to kick off the client workshop. They shared valuable context to frame blah blah blah blahblah blah blah blah blah blah
+                            </span>
+                           
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                        <a href="#">
+                        <div class="card_img">
+                            <img src="images/card_img1.png" alt="">
+                        </div>
+                        </a>
+                        <div class="card_title_desc">
+                            <span class="card_title">Finding an Expert for a Strategic Workshop for a Consulting Client</span>
+                            <span>
+                                The experts extensive background in Brazilian economics made them an ideal fit to kick off the client workshop. They shared valuable context to frame blah blah blah blahblah blah blah blah blah blah
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                        <a href="#">
+                        <div class="card_img">
+                            <img src="images/card_img1.png" alt="">
+                        </div>
+                        </a>
+                        <div class="card_title_desc">
+                            <span class="card_title">Finding an Expert for a Strategic Workshop for a Consulting Client</span>
+                            <span>
+                                The experts extensive background in Brazilian economics made them an ideal fit to kick off the client workshop. They shared valuable context to frame blah blah blah blahblah blah blah blah blah blah
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                    <a href="#">
+                    <div class="card_img">
+                        <img src="images/card_img1.png" alt="">
+                    </div>
+                    </a>
+                    <div class="card_title_desc">
+                        <span class="card_title">Finding an Expert for a Strategic Workshop for a Consulting Client</span>
+                        <span>
+                            The experts extensive background in Brazilian economics made them an ideal fit to kick off the client workshop. They shared valuable context to frame blah blah blah blahblah blah blah blah blah blah
+                        </span>
+                    </div>
+                </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                        <a href="#">
+                        <div class="card_img">
+                            <img src="images/card_img1.png" alt="">
+                        </div>
+                        </a>
+                        <div class="card_title_desc">
+                            <span class="card_title">Finding an Expert for a Strategic Workshop for a Consulting Client</span>
+                            <span>
+                                The experts extensive background in Brazilian economics made them an ideal fit to kick off the client workshop. They shared valuable context to frame blah blah blah blahblah blah blah blah blah blah
+                            </span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card">
+                    <a href="#">
+                    <div class="card_img">
+                        <img src="images/card_img1.png" alt="">
+                    </div>
+                    </a>
+                    <div class="card_title_desc">
+                        <span class="card_title">Finding an Expert for a Strategic Workshop for a Consulting Client</span>
+                        <span>
+                            The experts extensive background in Brazilian economics made them an ideal fit to kick off the client workshop. They shared valuable context to frame blah blah blah blahblah blah blah blah blah blah
+                        </span>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              
+            <a href="#" class="detail_btn">DETAILS<img src="images/arrow_right_long.svg" alt=""></a>
+        </div>
+        </div>
+        </section>
+        <section class="network">
+            <div class="content_horizontal_network">
+                <div class="type_title">
+                <h4>NETWORK</h4>
+                <div class="network_desc_btn" >
+                <div class="title_desc">
+                <h3>WORLDWIDE
+                    connection</h3>
+                <p class="tablet_no">
+                    Network Members connect with our clients in a Trusted Environment and with an entirely tailored experience — over the phone or in person, through virtual events, or longer-term projects or board opportunities. Positions and project participation are always at Network Member's discretion.
+                </p>
+                </div>
+                <a id="tablet_no_btn"class="btn_main" href="#">BECOME A NETWORK MEMBER</a>
+                </div>
+                </div>
+
+                <div id="globeViz"style="display: flex; width: 700px" ></div>
+
+                <div class="type_title"  id="tablet_show" style="display: none">
+                    <div class="network_desc_btn">
+                    <div class="title_desc">
+                    
+                    <p>
+                        Network Members connect with our clients in a Trusted Environment and with an entirely tailored experience — over the phone or in person, through virtual events, or longer-term projects or board opportunities. Positions and project participation are always at Network Member's discretion.
+                    </p>
+                    </div>
+                    <a class="btn_main" href="#">BECOME A NETWORK MEMBER</a>
+                    </div>
+                    </div>
+            </div>
+            </section>
+            <section class="contact">
+                <div class="content">
+                <div class="title_desc_sec3">
+                <h3>LET'S TALK</h3>
+                <p>We bring the power of insight to every great professional decision.</p>
+                </div>
+                <div class="contact_form">
+                    <fieldset>
+                        <form action="" method="post">
+                            <div class="submit_area">
+                            <h4>Let us know</h4>
+                            <button class="btn_main" type="submit">SEND</button>
+                            </div>
+                    <div class="form_row">
+                    <div class="form_col">
+                            <div class="select_type">
+                                
+                            <input class="type_help" type="radio" name="type_of_talk" id="get_help" value="GET HELP">
+                            
+                            <label class="radio_box" for="get_help"><span class="radio_check"></span>GET HELP</label>
+                            </div>
+                        <div class="select_type">
+                            <input class="type_help" type="radio" name="type_of_talk" id="network_member" value="BECOME A NETWORK MEMBER">
+                            
+                            <label class="radio_box" for="network_member"><span class="radio_check"></span> BECOME A NETWORK MEMBER</label>
+                        </div>
+                        <div class="select_location">
+                            <select name="" id="location">
+                                <option value="" disabled selected hidden>Location</option>
+                                <option value="Africa">Africa</option>
+                                <option value="Asia">Asia</option>
+                                <option value="Europe">Europe</option>
+                                <option value="Latin America">Latin America</option>
+                                <option value="Oceania">Oceania</option>
+                                <option value="United States">United States</option>
+                            </select>
+                            <span class="arrow_icon"><img src="images/select_arrow.svg"></span>
+                        </div>
+                        <div class="select_topic">
+                            <select name="" id="topic">
+                                <option value="" disabled selected hidden>TOPIC</option>
+                                <option value="Branding">Branding</option>
+                                <option value="Marketing">Marketing</option>
+                                <option value="Design">Design</option>
+                                <option value="Strategy & Planning">Strategy & Planning</option>
+                                <option value="Automation">Automation</option>
+                                <option value="United States">Metaverse</option>
+                                <option value="Funding For Startups">Funding For Startups</option>
+                            </select>
+                            <span class="arrow_icon"><img src="images/select_arrow.svg"></span>
+                        </div>
+                        
+                    </div>
+                    <div class="form_col">
+                    <div class="text_input">
+                    <input type="text" name="" id="" placeholder="NAME">
+                    </div>
+                    <div class="text_input">
+                    <input type="email" name="" id="" placeholder="EMAIL">
+                    </div>
+                    <div class="text_input">
+                    <input type="tel" name="" id="" placeholder="PHONE">
+                    </div>
+                    <div class="textarea_input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="DETAILS"></textarea>
+                    </div>
+                    </div>
+                    </div>
+                        
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+            </section>
+    </main>
+    <footer>
+        <div class="footer_area">
+        <div class="copyright">
+        <img src="images/logo1.svg" alt="Deep Bridge">
+        <span>COPYRIGHT 2022. DEEP BRIDGE ALL RIGHTS RESERVED</span>
+        </div>
+        <div class="address_group">
+            <div class="address">
+            <address>VIA A. PAOLI 12990 MILAN, ITALY</address>
+            <p>+39 02 123 0090</p>
+            </div>
+            <div class="address">
+            <address>JONG-NO 1 13313 SEOUL, SOUTH KOREA</address>
+            <p>+82 02 443 0090</p>
+            </div>
+        </div>
+        </div>
+        <div class="legal">
+            <div class="legal_content">
+                <ul>
+                    <li><a href="#">TERMS IN USE</a></li>
+                    <li><a href="#">COOKIE POLICY</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+<div class="lets_talk">
+    <a href="#">
+    <span>Let's talk</span>
+    <img src="images/smile.svg" alt="">
+    </a>    
+</div>
+<div class="cursor"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="//unpkg.com/globe.gl"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script src="js/hero.js"></script>
+<script src="js/earth.js"></script>
+
+<script src="js/cursor.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/phone.js"></script>
+<script src="js/nav.js"></script>
+</body>
+</html>
